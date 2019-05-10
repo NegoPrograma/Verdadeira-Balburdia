@@ -1,10 +1,9 @@
 /* ID's */
 #main-header{
     font-family: 'Baloo Bhai','cursive';
-    font-size: 6.5em;
+    font-size: 6em;
+    width: 100%;
     color: azure;
-    margin-top: 200px;
-    margin-bottom: 120px;
 }
 
 #main-text{
@@ -13,11 +12,25 @@
     font-size: 24px;
 }
 
+#discover-more{
+    margin: 50px auto;
+    font-size: 24px;
+}
 
 /* classes */
+.heading{
+    width: 100%;
+    margin: 200px 0 150px;
+    padding: 0 10% 0 16%; 
+}
+
+
+.first-section{
+    background-image: url("../images/sitebackground.png");
+}
 
 /* tags gerais */
 
-body {
-    background-image: url("../images/sitebackground.png");
+p {
+    font-family: 'Roboto', sans-serif;
 }
