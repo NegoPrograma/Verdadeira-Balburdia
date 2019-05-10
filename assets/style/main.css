@@ -1,6 +1,23 @@
 /* ID's */
 #main-header{
     font-family: 'Baloo Bhai','cursive';
-    margin: 0 auto;
-    
+    font-size: 6.5em;
+    color: azure;
+    margin-top: 200px;
+    margin-bottom: 120px;
+}
+
+#main-text{
+    margin: 15px;
+    color: azure;
+    font-size: 24px;
+}
+
+
+/* classes */
+
+/* tags gerais */
+
+body {
+    background-image: url("../images/sitebackground.png");
 }

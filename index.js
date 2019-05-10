@@ -9,3 +9,5 @@ function Estabelecimento(nome,orcamento,percentualDeCorte,textoIntrodutorio){
 //------------------INSTANCIAS--------------------//
 
 //-------Amapá---------//
+
+let UF_Amapa = []
