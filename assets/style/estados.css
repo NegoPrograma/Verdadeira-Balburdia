@@ -1,0 +1,164 @@
+/* #acre{
+   
+    
+}
+
+#alagoas{
+   
+    
+}
+
+#amapa{
+   
+}
+
+#amazonas{
+    
+}
+
+
+#bahia{
+   
+    
+}
+
+#ceara{
+   
+    
+}
+
+
+#df{
+   
+    
+}
+
+#espirito-santo{
+   
+    
+}
+
+#goias{
+   
+    
+}
+
+#maranhao{
+   
+    
+}
+
+#mato-grosso{
+   
+    
+}
+
+#mato-grosso-do-sul{
+   
+    
+}
+
+#minas-gerais{
+   
+    
+}
+
+#para{
+   
+    
+}
+
+#paraiba{
+   
+    
+}
+
+#parana{
+   
+    
+}
+
+#pernambuco{
+   
+    
+}
+
+#piaui{
+   
+    
+}
+
+#rio-de-janeiro{
+   
+    
+}
+
+#rio-grande-do-norte{
+   
+    }
+
+#rio-grande-do-sul{
+   
+    }
+
+#rondonia{
+   
+    }
+
+#roraima{
+   
+    }
+
+#santa-catarina{
+   
+    }
+
+#sao-paulo{
+   
+    }
+
+#sergipe{
+   
+    
+}
+
+#tocantins{
+   
+} */
+
+.estado{
+    color: black;
+    background-color: azure;
+    margin: 30px;
+    border: 3px solid black;
+    transition: 1s;
+    font-size: 16px;
+}
+
+.estado:hover{
+    color: azure;
+    background-color: black;
+    margin: 30px;
+    border: 3px solid azure;
+    transition: 1s;
+
+}
+
+.estado img{
+    margin-right: 10px;
+}
+
+.estados{
+    font-family: 'Baloo Bhai','cursive';
+    width: 80%;
+    margin: 10px 10% 10px 10%;
+}
+
+/* .imagem-estados{
+    width: 102px;
+    height: 68px;
+    text-align: center;
+    padding-top: 34px;
+    font-size: 24px;
+
+} */

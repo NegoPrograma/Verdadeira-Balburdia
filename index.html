@@ -3,12 +3,14 @@
         <!-- Imports do bootstrap e fontes de texto do google-->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
-        <link rel="stylesheet" href=".//assets/style/main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href=".//assets/style/main.css">
+        <link rel="stylesheet" href=".//assets/style/estados.css">
     </head>
     <body>
 
 
+        <!--Primeira section, consistindo da navbar, header principal e texto inicial-->
         <section class="first-section">
 
     <!-- Barra de navegação da página-->
@@ -31,15 +33,12 @@
                         </ul>
                       </div>
             </nav>
-
-
         <div class="container-fluid">
             <div class="row">
                 <div class="heading">
                     <h1 id="main-header">A verdadeira balbúrdia.</h1>
                 </div>
             </div>
-
             <div class="row">
                 <p id="main-text" class="col-lg-12 col-md-6 col-sm-4">Baseando-se na infame justificativa de que as universidades federais 
                 estariam cometendo demasiada balbúrdia (que nada mais passou de demonstração da opinião
@@ -48,10 +47,61 @@
                 Mas de quanto exatamente estamos falando? Clique abaixo para descobrir!</p>
             </div>
             <div class="row">
-                    <button id="discover-more" class="btn btn-outline-light">Saiba Mais!</button>
+                <button id="discover-more" class="btn btn-outline-light">Saiba Mais!</button>
             </div>
         </div>
     </section>
+
+    <!--Segunda section, consistindo da tabela com os estados do país-->
+    <section class="second-section">
+        <div class="container">
+            <div class="row">
+                <h2 class="mx-auto second-section-header">Selecione abaixo o estado desejado</h2>
+            </div>
+            <div class="row">
+                <div class="estados">
+                    <div class="row">
+                        <div class="col-lg-3 estado" id="acre"><img src="./assets/images/acre.png">AC</div>
+                        <div class="col-lg-3 estado" id="alagoas"><img src="./assets/images/alagoas.png">AL</div>
+                        <div class="col-lg-3 estado" id="amapa"><img src="./assets/images/amapa.png">AP</div>
+                        <div class="col-lg-3 estado" id="amazonas"><img src="./assets/images/amazonas.png">AM</div>
+                        <div class="col-lg-3 estado"  id="bahia"><img src="./assets/images/bahia.png">BA</div>
+                        <div class="col-lg-3 estado"  id="ceara"><img src="./assets/images/ceara.png">CE</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 estado" id="df"><img src="./assets/images/df.png">DF</div>
+                        <div class="col-lg-3 estado" id="espirito-santo"><img src="./assets/images/espiritosanto.png">ES</div>
+                        <div class="col-lg-3 estado"  id="goias"><img src="./assets/images/goias.png">GO</div>
+                        <div class="col-lg-3 estado"  id="maranhao"><img src="./assets/images/maranhao.png">MA</div>
+                        <div class="col-lg-3 estado"  id="mato-grosso"><img src="./assets/images/matogrosso.png">MT</div>
+                        <div class="col-lg-3 estado"  id="mato-grosso-do-sul"><img src="./assets/images/matogrossodosul.png">MS</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 estado"  id="minas-gerais"><img src="./assets/images/minasgerais.png">MG</div>
+                        <div class="col-lg-3 estado"  id="para"><img src="./assets/images/para.png">PA</div>
+                        <div class="col-lg-3 estado"  id="paraiba"><img src="./assets/images/paraiba.png">PB</div>
+                        <div class="col-lg-3 estado"  id="parana"><img src="./assets/images/parana.png">PR</div>
+                        <div class="col-lg-3 estado"  id="pernambuco"><img src="./assets/images/pernambuco.png">PE</div>
+                        <div class="col-lg-3 estado"  id="piaui"><img src="./assets/images/piaui.png">PI</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 estado"  id="rio-de-janeiro"><img src="./assets/images/riodejaneiro.png">RJ</div>
+                        <div class="col-lg-3 estado"  id="rio-grande-do-norte"><img src="./assets/images/riograndedonorte.png">RN</div>
+                        <div class="col-lg-3 estado" id="rio-grande-do-sul"><img src="./assets/images/riograndedosul.png">RS</div>
+                        <div class="col-lg-3 estado" id="rondonia"><img src="./assets/images/rondonia.png">RO</div>
+                        <div class="col-lg-3 estado" id="roraima"><img src="./assets/images/roraima.png">RR</div>
+                        <div class="col-lg-3 estado" id="santa-catarina"><img src="./assets/images/santacatarina.png">SC</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 estado" id="sao-paulo"><img src="./assets/images/saopaulo.png">SP</div>
+                        <div class="col-lg-3 estado" id="sergipe"><img src="./assets/images/sergipe.png">SE</div>
+                        <div class="col-lg-3 estado" id="tocantins"><img src="./assets/images/tocantins.png">TO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -6,6 +6,16 @@ function Estabelecimento(nome,orcamento,percentualDeCorte,textoIntrodutorio){
     this.textoIntrodutorio = textoIntrodutorio;
 };
 
+
+//estabelecendo variaveis
+
+estado = $("estado");
+
+
+//-------------TABELAS----------------//
+
+
+
 //------------------INSTANCIAS--------------------//
 
 //-------Amapá---------//

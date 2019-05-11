@@ -17,6 +17,8 @@
     font-size: 24px;
 }
 
+
+
 /* classes */
 .heading{
     width: 100%;
@@ -25,12 +27,27 @@
 }
 
 
+
 .first-section{
     background-image: url("../images/sitebackground.png");
 }
+
+.second-section{
+    padding-top: 500px;
+    background-color: #AA94B8;
+}
+
+.second-section-header{
+    font-family: 'Baloo Bhai','cursive';
+}
+
 
 /* tags gerais */
 
 p {
     font-family: 'Roboto', sans-serif;
+}
+
+img{
+    display: inline;
 }
