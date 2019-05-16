@@ -1,135 +1,9 @@
-/* #acre{
-   
-    
-}
 
-#alagoas{
-   
-    
-}
-
-#amapa{
-   
-}
-
-#amazonas{
-    
-}
-
-
-#bahia{
-   
-    
-}
-
-#ceara{
-   
-    
-}
-
-
-#df{
-   
-    
-}
-
-#espirito-santo{
-   
-    
-}
-
-#goias{
-   
-    
-}
-
-#maranhao{
-   
-    
-}
-
-#mato-grosso{
-   
-    
-}
-
-#mato-grosso-do-sul{
-   
-    
-}
-
-#minas-gerais{
-   
-    
-}
-
-#para{
-   
-    
-}
-
-#paraiba{
-   
-    
-}
-
-#parana{
-   
-    
-}
-
-#pernambuco{
-   
-    
-}
-
-#piaui{
-   
-    
-}
-
-#rio-de-janeiro{
-   
-    
-}
-
-#rio-grande-do-norte{
-   
-    }
-
-#rio-grande-do-sul{
-   
-    }
-
-#rondonia{
-   
-    }
-
-#roraima{
-   
-    }
-
-#santa-catarina{
-   
-    }
-
-#sao-paulo{
-   
-    }
-
-#sergipe{
-   
-    
-}
-
-#tocantins{
-   
-} */
 
 .estado{
     color: black;
     background-color: azure;
-    margin: 30px;
+    margin: 1px;
     border: 3px solid black;
     transition: 1s;
     font-size: 16px;
@@ -138,7 +12,7 @@
 .estado:hover{
     color: azure;
     background-color: black;
-    margin: 30px;
+    margin: 10px;
     border: 3px solid azure;
     transition: 1s;
 
@@ -151,6 +25,7 @@
 
 .estados{
     font-family: 'Baloo Bhai','cursive';
+    font-size: 20px;
     width: 80%;
-    margin: 10px 10% 10px 10%;
+    margin: 10px 10% 10px 20%;
 }
