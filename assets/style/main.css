@@ -22,18 +22,16 @@
 /* classes */
 .heading{
     width: 100%;
-    margin: 200px 0 150px;
+    margin: 120px 0 70px;
     padding: 0 10% 0 16%; 
 }
-
-
 
 .first-section{
     background-image: url("../images/sitebackground.png");
 }
 
 .second-section{
-    padding-top: 500px;
+    padding-top: 200px;
     background-color: #AA94B8;
 }
 

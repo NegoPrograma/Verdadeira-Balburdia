@@ -146,6 +146,7 @@
 
 .estado img{
     margin-right: 10px;
+    margin-left: -15px;
 }
 
 .estados{
@@ -153,12 +154,3 @@
     width: 80%;
     margin: 10px 10% 10px 10%;
 }
-
-/* .imagem-estados{
-    width: 102px;
-    height: 68px;
-    text-align: center;
-    padding-top: 34px;
-    font-size: 24px;
-
-} */
