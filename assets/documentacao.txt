@@ -169,11 +169,13 @@ Pernambuco
 
 new Estabelecimento("Universidade Federal de Pernambuco", "186.364.085", "5.653.591", "3%")
 
+ new Estabelecimento("Universidade Federal Rural de Pernambuco", "78.297.097", "2.396.806", "3%")
+
+
 new Estabelecimento("Instituto Federal de Pernambuco", "79.100.872", "3.307.664", "4%")
 
 new Estabelecimento("Instituto Federal do Sertão Pernambucano", "32.185.666", "2.471.086", "8%")
 
- new Estabelecimento("Universidade Federal Rural de Pernambuco", "78.297.097", "2.396.806", "3%")
 
 Piauí 
 
@@ -184,9 +186,9 @@ new Estabelecimento("Instituto Federal do Piauí", "69.784.170", "2.998.761", "4
 
 RJ
 
-new Estabelecimento("Fundação Universidade", "do Rio de Janeiro 69."352."230, 117.271", "0%")
+new Estabelecimento("Fundação Universidade do Rio de Janeiro","69.352.230", "117.271", "0%")
 
-26201new Estabelecimento(""Colégio Pedro II 72."963."101, 728.716", "1%")
+new Estabelecimento("Colégio Pedro II ","72.963.101", "728.716", "1%")
 
 new Estabelecimento("Centro Federal de Educação Tecnológica Celso Suckow da Fonseca", "56.737.785", "1.404.124", "2%")
 
@@ -208,25 +210,27 @@ rio grande do norte
 
 new Estabelecimento("Universidade Federal do Rio Grande do Norte", "206.055.237", "10.336.367", "5%")
 
+new Estabelecimento("Universidade Federal Rural do Semi-Árido", "51.060.860", "1.500.000", "3%")
+
 new Estabelecimento("Instituto Federal do Rio Grande do Norte", "102.421.740", "2.919.198", "3%")
 
-new Estabelecimento("Universidade Federal Rural do Semi-Árido", "51.060.860", "1.500.000", "3%")
 
 rio grande do sul
 
 new Estabelecimento("Fundação Universidade Federal de Ciências da Saúde de Porto Alegre", "35.872.241", "1.500.000", "4%")
 
-new Estabelecimento("Instituto Federal do Rio Grande do Sul", "68.293.421", "2.473.954", "4%")
-
 new Estabelecimento("Universidade Federal de Santa Maria", "142.964.016", "6.680.753", "5%")
 
 new Estabelecimento("Fundação Universidade Federal de Pelotas", "86.954.588", "5.974.027", "7%")
-
 new Estabelecimento("Universidade Federal do Rio Grande do Sul", "211.767.249", "4.490.484", "2%")
 
 new Estabelecimento("Fundação Universidade Federal do Rio Grande", "73.745.030", "3.771.300", "5%")
 
 new Estabelecimento("Fundação Universidade Federal do Pampa", "56.371.149", "3.000.000", "5%")
+
+
+new Estabelecimento("Instituto Federal do Rio Grande do Sul", "68.293.421", "2.473.954", "4%")
+
 
 new Estabelecimento("Instituto Federal Sul-rio-grandense", "62.382.995", "2.920.812", "5%")
 
@@ -248,22 +252,20 @@ new Estabelecimento("Instituto Federal de Roraima", "27.747.636", "2.387.469", "
 SC
 
 new Estabelecimento("Universidade Federal de Santa Catarina", "207.046.321", "14.257.829", "7%")
+new Estabelecimento("Universidade Federal da Fronteira Sul", "61.121.946", "1.262.858", "2%")
 
 new Estabelecimento("Instituto Federal Catarinense", "72.674.936", "6.211.493", "9%")
-
 new Estabelecimento("Instituto Federal de Santa Catarina", "82.885.474", "2.874.280", "3%")
 
-new Estabelecimento("Universidade Federal da Fronteira Sul", "61.121.946", "1.262.858", "2%")
 
 SP
 
 new Estabelecimento("Fundação Universidade Federal do ABC", "63.102.720", "6.400.628", "10%")
-
 new Estabelecimento("Universidade Federal de São Paulo", "135.073.629", "3.206.884", "2%")
+new Estabelecimento("Fundação Universidade Federal de São Carlos", "67.420.224", "2.044.612", "3%")
 
 new Estabelecimento("Instituto Federal de São Paulo", "138.563.306", "2.166.776", "2%")
 
-new Estabelecimento("Fundação Universidade Federal de São Carlos", "67.420.224", "2.044.612", "3%")
 
 Sergipe 
 
