@@ -1,9 +1,9 @@
 //class creation
-function Estabelecimento(nome,orcamento,percentualDeCorte,valorCorteBruto){
+function Estabelecimento(nome,orcamento,valorCorteBruto,percentualDeCorte){
     this.nome = nome;
     this.orcamento = orcamento;
-    this.percentualDeCorte = percentualDeCorte;
     this.valorCorteBruto = valorCorteBruto;
+    this.percentualDeCorte = percentualDeCorte;
 };
 
 
@@ -65,13 +65,23 @@ for (let index = 0; index < vetorEstados.length; index++){
 //------------------INSTANCIAS--------------------//
 
 //----------Acre-----------//
-let UF_Acre = new Estabelecimento("Universidade Federal do Acre","58.672.830","7%","3.834.634");
-let IF_Acre = new Estabelecimento("Instituto Federal do Acre");
+let UF_AC = new Estabelecimento("Universidade Federal do Acre","58.672.830","3.834.634","7%");
+let IF_AC = new Estabelecimento("Instituto Federal do Acre","33.925.222","1.772.736","5%");
+
+//------Alagoas--------//
+
+let UF_AL = new Estabelecimento("Universidade Federal de Alagoas", "113.366.154", "10.091.228", "9%")
+let IF_AL = new Estabelecimento("Instituto Federal de Alagoas", "85.485.553", "3.501.883", "4%")
 
 //-------Amapá---------//
 
-let UF_Amapa = [];
-let IF_Amapa = [];
+let UF_AP = new Estabelecimento("Fundação Universidade Federal do Amapá", "151.722.981", "8.677.758", "6%");
+let IF_AP =new Estabelecimento("Instituto Federal do Amapá", "32.648.274", "7.293.760", "22%");
+
+
+//------Amazonas------//
+
+let UF_AM = new Estabelecimento("Universidade Federal Rural da Amazônia", "49.016.973", "3.804.307", "8%")
 
 
 
