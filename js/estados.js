@@ -256,3 +256,89 @@ let IF_TO = new Estabelecimento("Instituto Federal do Tocantins", "47.806.352", 
 let UFs = [UF_AC,UF_AL,UF_AP,UF_AM,UF_BA,UF_CE,UF_DF,UF_ES,UF_GO,UF_MA,UF_MT,UF_MS,UF_MG,UF_PA,UF_PB,UF_PR,UF_PE,UF_RJ,UF_RN,UF_RS,UF_RO,UF_RR,UF_SC,UF_SP,UF_SE,UF_TO];
 
 let IFs = [IF_AC,IF_AL,IF_AP,IF_BA,IF_CE,IF_DF,IF_ES,IF_GO,IF_MA,IF_MT,IF_MS,IF_MG,IF_PA,IF_PB,IF_PR,IF_PE,IF_PI,IF_RJ,IF_RN,IF_RS,IF_RO,IF_RR,IF_SC,IF_SP,IF_SE,IF_TO];
+
+let HPs = [HP_MS,HP_PI,HP_RJ];
+
+
+
+//é agora, estamos prestes a fazer a lendária função principal, tudo que você sofreu e odiou até então passa a ter significado! boa sorte.
+//pqp é muito trabalho braçal, nisso que dá fazer as coisas sem planejar, seu arrombado
+
+function selecionador(estadoSelecionado,opcaoSelecionada){
+    switch(opcaoSelecionada){
+        case "universidades":
+                switch(estadoSelecionado){
+                     case "acre":
+
+                        break;
+                     case "alagoas":
+                     
+                        break;
+                     case "amapa":
+
+                        break;
+                     case "acre":
+                     
+                        break;
+                     case "acre":
+
+                        break;
+                     case "acre":
+                     
+                        break;
+                     case "acre":
+
+                        break;
+                     case "acre":
+                     
+                        break;
+                     case "acre":
+
+                        break;
+                     case "acre":
+                     
+                        break;
+                     case "acre":
+
+                        break;
+                     case "acre":
+                     
+                        break;
+                     case "acre":
+
+                        break;
+                     case "acre":
+                     
+                        break;
+                     case "acre":
+
+                        break;
+                     case "acre":
+                     
+                        break;
+                     case "acre":
+
+                        break;
+                     case "acre":
+                     
+                        break;
+                     case "acre":
+
+                        break;
+                     case "acre":
+                     
+                        break;
+
+                }
+
+        break;
+
+        case "instituicoes":
+
+        break;
+
+        case "hospitais":
+
+        break;
+    }
+}

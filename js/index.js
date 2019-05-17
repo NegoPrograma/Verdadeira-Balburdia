@@ -25,6 +25,10 @@ let menuDeBotoes = false;
 
 let listaBotoes = $(".options button");
 let estabelecimentoSelecionado;
+
+
+//----comportamento das opções---//
+
 for (let index = 0; index < listaBotoes.length; index++) {
         listaBotoes[index].addEventListener("click",()=>{
             estabelecimentoSelecionado = listaBotoes[index].getAttribute("id");
@@ -55,8 +59,6 @@ for (let index = 0; index < vetorEstados.length; index++){
     });
 };
 
-teste();
-
 
 
 
@@ -64,9 +66,6 @@ teste();
 //-------------------FUNÇÕES GERAIS----------------//
 
 $(".options").fadeOut();
-
-
-
 
 function showButtons(menu){
     if(menu){
@@ -83,7 +82,3 @@ function showButtons(menu){
     }
 };
 
-
-function showInfo(estabelecimento,estado){
-
-}
