@@ -66,7 +66,7 @@ new Estabelecimento("Instituto Federal do Espírito Santo", "116.844.127", "3.32
 Goias:
 
 
-new Estabelecimento("Instituto Federal de Goiás 57",".281.134, "1".888.285, ""3%")
+new Estabelecimento("Instituto Federal de Goiás ","57.281.134, "1".888.285, ""3%")
 new Estabelecimento("Instituto Federal Goiano", "67.285.580", "4.956.791", "7%")
 
 new Estabelecimento("Universidade Federal de Goiás", "126.370.349", "4.078.583", "3%")
@@ -103,9 +103,9 @@ new Estabelecimento("Fundação Universidade Federal da Grande Dourados", "63.91
 
 MG
 
-new Estabelecimento("Universidade", "Federal do Triângulo Mineiro 47."520."958, 183.478", "0%")
+new Estabelecimento("Universidade Federal do Triângulo Mineiro", "47.520.958", "183.478", "0%")
 
-26260new Estabelecimento(""Universidade Federal de Alfenas 37."303."209, 456.183", "1%")
+new Estabelecimento("Universidade Federal de Alfenas", "37.303.209","456.183", "1%")
 
 new Estabelecimento("Instituto Federal do Sul de Minas Gerais", "59.254.324", "1.246.069", "2%")
 
@@ -132,6 +132,7 @@ new Estabelecimento("Universidade Federal de Uberlândia", "147.202.797", "3.045
 new Estabelecimento("Fundação Universidade Federal de Viçosa", "106.501.668", "2.908.086", "3%")
 
 new Estabelecimento("Instituto Federal do Sudeste de Minas Gerais 54",".509.734, "2".481.015, ""5%")
+
 Pará 
 
 new Estabelecimento("Universidade Federal do Oeste do Pará", "54.364.451", "7.409.367", "14%")
