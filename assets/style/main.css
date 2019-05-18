@@ -22,9 +22,10 @@
 /* classes */
 
 .data-box{
+    padding-top: 50px; 
     width: 500px;
-    height: 300px;
-    margin: 0px 15px;
+    height: 400px;
+    margin: 10px 15px;
     text-align: center;
     background-color: #EEE;
     display: inline-block; 
@@ -63,11 +64,13 @@
     padding-top: 100px;
     background-color: #AA94B8;
     background-image: url("../images/sitebackground2.jpg");
+    background-repeat: no-repeat;
 }
 
 .second-section-header{
     margin-top: 150px;
     font-family: 'Baloo Bhai','cursive';
+    color: aliceblue;
 }
 
 .returnButton{
