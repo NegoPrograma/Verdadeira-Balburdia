@@ -276,7 +276,7 @@ function showInfo(place){
             atributo[1] = place[index].orcamento;
             atributo[2] = place[index].valorCorteBruto;
             atributo[3] = place[index].percentualDeCorte;
-            stringAtributo += '<div class="data-box col-lg-6 col-md-6"> <h2 class="data-header">' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">Orçamento original: R$ '+ atributo[1] +'</li> <li class="list-group-item"> Valor bruto do corte: R$ ' + atributo[2]+ '<li class="list-group-item"> Percentual do corte: ' + atributo[3] + '</ul></div>';
+            stringAtributo += '<div class="data-box col-lg-6 col-md-6 col-sm-12"> <h2 class="data-header">' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">Orçamento original: R$ '+ atributo[1] +'</li> <li class="list-group-item"> Valor bruto do corte: R$ ' + atributo[2]+ '<li class="list-group-item"> Percentual do corte: ' + atributo[3] + '</ul></div>';
             $(".data-place").html(stringAtributo);
                console.log(stringAtributo);
          };
@@ -286,7 +286,7 @@ function showInfo(place){
          atributo[1] = place.orcamento;
          atributo[2] = place.valorCorteBruto;
          atributo[3] = place.percentualDeCorte;
-         stringAtributo += '<div class="data-box col-lg-12 col-md-12 col-sm-12"> <h2 class="data-header">' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">Orçamento original: R$ '+ atributo[1] +'</li> <li class="list-group-item"> Valor bruto do corte: R$ ' + atributo[2]+ '<li class="list-group-item"> Percentual do corte: R$ ' + atributo[3] + '</ul></div>';
+         stringAtributo += '<div class="data-box col-lg-6 col-md-6 col-sm-12"> <h2 class="data-header">' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">Orçamento original: R$ '+ atributo[1] +'</li> <li class="list-group-item"> Valor bruto do corte: R$ ' + atributo[2]+ '<li class="list-group-item"> Percentual do corte: R$ ' + atributo[3] + '</ul></div>';
          $(".data-place").html(stringAtributo);     
          console.log(stringAtributo);
       };

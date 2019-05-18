@@ -1,7 +1,7 @@
 /* ID's */
 #main-header{
     font-family: 'Baloo Bhai','cursive';
-    font-size: 6em;
+    font-size: 2.8em;
     color: azure;
 }
 
@@ -29,18 +29,21 @@
 
 /* classes */
 
+.contatos{
+    border-right: 4px solid white;
+}
+
 .data-box{
     padding-top: 30px; 
-    width: 500px;
-    height: 400px;
-    margin: 10px 15px;
+    width: 100%;
+    margin: 10px;
+    border: #333 5px solid;
     text-align: center;
     background-color: #EEE;
     display: inline-block; 
 }
 
 .data-header{
-    font-size: 2.5em;
     margin-bottom: 30px;
 }
 
@@ -59,16 +62,22 @@
 
 .help{
     font-family: 'Baloo Bhai','cursive';
-    padding-top: 110px; 
+    padding-top: 100px; 
     width: 100%;
     height: 300px; 
     font-size: 2.5em;
     color: azure;
-    border: 20px dotted #333;
+    border: 10px dotted #333;
     display: block;
     background-color: #503FF8; 
 }
 
+.page-footer{
+    padding-top: 30px;
+    background-color: #333;
+    color: white;
+    border-top: #EEE 3px solid;
+}
 
 
 
@@ -85,7 +94,7 @@
 }
 
 .options{
-    width: 100%;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -101,6 +110,9 @@
 /* tags gerais */
 
 
+h3{
+    font-family: 'Baloo Bhai','cursive';
+}
 
 p {
     font-family: 'Roboto', sans-serif;
