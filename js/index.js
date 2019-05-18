@@ -62,7 +62,7 @@ returnButton.click(()=>{
 //setando background
 let actualBackImage;
 for (let index = 0; index < vetorEstados.length; index++){
-    actualBackImage = "url('./assets/images/" + stringEstadosAbreviados[index] + ".jpg'";
+    actualBackImage = "url('./assets/images/" + stringEstadosAbreviados[index] + ".jpg')";
     vetorEstados[index].style.backgroundImage = actualBackImage;
 };
 
