@@ -172,7 +172,7 @@ let UF_RJ = [new Estabelecimento("Fundação Universidade do Rio de Janeiro","69
 ,new Estabelecimento("Universidade Federal Rural", "do Rio de Janeiro ","71.766.994","375.426", "1%")
 ];
 
-let IF_RJ = [new Estabelecimento("Colégio Pedro II ","72.963.101", "728.716", "1%")
+let IF_RJ = [new Estabelecimento("Instituto Colegial Pedro II ","72.963.101", "728.716", "1%")
 ,new Estabelecimento("Centro Federal de Educação Tecnológica Celso Suckow da Fonseca", "56.737.785", "1.404.124", "2%")
 ,new Estabelecimento("Instituto Federal Fluminense", "71.864.878", "2.560.120", "4%")
 ,new Estabelecimento("Instituto Federal do Rio de Janeiro", "83.181.097", "1.848.567", "2%")
@@ -276,7 +276,7 @@ function showInfo(place){
             atributo[1] = place[index].orcamento;
             atributo[2] = place[index].valorCorteBruto;
             atributo[3] = place[index].percentualDeCorte;
-            stringAtributo += '<div class="data-box col-lg-'+(place.length).toString() +' col-md-'+(place.length/2).toString() + ' col-sm-12"> <h2 class="data-header">' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">Orçamento original: '+ atributo[1] +'</li> <li class="list-group-item"> Valor bruto do corte: ' + atributo[2]+ '<li class="list-group-item"> Percentual do corte: ' + atributo[3] + '</ul></div>';
+            stringAtributo += '<div class="data-box col-lg-6 col-md-6"> <h2 class="data-header">' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">Orçamento original: R$ '+ atributo[1] +'</li> <li class="list-group-item"> Valor bruto do corte: R$ ' + atributo[2]+ '<li class="list-group-item"> Percentual do corte: ' + atributo[3] + '</ul></div>';
             $(".data-place").html(stringAtributo);
                console.log(stringAtributo);
          };
@@ -286,7 +286,7 @@ function showInfo(place){
          atributo[1] = place.orcamento;
          atributo[2] = place.valorCorteBruto;
          atributo[3] = place.percentualDeCorte;
-         stringAtributo += '<div class="data-box col-lg-12 col-md-6 col-sm-1"> <h2 class="data-header">' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">Orçamento original: '+ atributo[1] +'</li> <li class="list-group-item"> Valor bruto do corte: ' + atributo[2]+ '<li class="list-group-item"> Percentual do corte: ' + atributo[3] + '</ul></div>';
+         stringAtributo += '<div class="data-box col-lg-12 col-md-12 col-sm-12"> <h2 class="data-header">' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">Orçamento original: R$ '+ atributo[1] +'</li> <li class="list-group-item"> Valor bruto do corte: R$ ' + atributo[2]+ '<li class="list-group-item"> Percentual do corte: R$ ' + atributo[3] + '</ul></div>';
          $(".data-place").html(stringAtributo);     
          console.log(stringAtributo);
       };

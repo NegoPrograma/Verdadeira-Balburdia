@@ -2,7 +2,6 @@
 #main-header{
     font-family: 'Baloo Bhai','cursive';
     font-size: 6em;
-    width: 100%;
     color: azure;
 }
 
@@ -17,12 +16,21 @@
     font-size: 24px;
 }
 
+#second-section{
+    padding-top: 50px;
+    background-color: #AA94B8;
+    background-image: url("../images/sitebackground2.jpg");
+    background-size: cover;
+    
+}
+
+
 
 
 /* classes */
 
 .data-box{
-    padding-top: 50px; 
+    padding-top: 30px; 
     width: 500px;
     height: 400px;
     margin: 10px 15px;
@@ -33,6 +41,7 @@
 
 .data-header{
     font-size: 2.5em;
+    margin-bottom: 30px;
 }
 
 
@@ -49,7 +58,7 @@
 .help{
     font-family: 'Baloo Bhai','cursive';
     padding-top: 110px; 
-    width: 300px;
+    width: 100%;
     height: 300px; 
     font-size: 2.5em;
     color: azure;
@@ -60,12 +69,6 @@
 
 
 
-.second-section{
-    padding-top: 100px;
-    background-color: #AA94B8;
-    background-image: url("../images/sitebackground2.jpg");
-    background-repeat: no-repeat;
-}
 
 .second-section-header{
     margin-top: 150px;

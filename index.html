@@ -14,30 +14,11 @@
         <!--Primeira section, consistindo da navbar, header principal e texto inicial-->
         <section class="first-section">
 
-    <!-- Barra de navegação da página-->
-            <nav class="navbar navbar-expand-lg  navbar-dark">
-                    <a href="" class="navbar-brand ">A Balburdia</a>
-
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggler1" aria-controls="toggler1" aria-expanded="false" aria-label="Toggle navigation">
-                            <!-- navbar-toggler-icon é o icone do menu-->
-                            <span class="navbar-toggler-icon"></span>
-                    </button>
-                      <div class="collapse navbar-collapse" id="toggler1">
-                        <!-- ml-auto cria uma margem esquerda, o máximo possível até a ponta da tela-->
-                        <ul class="navbar-nav ml-auto">
-                          <li class="nav-item">
-                              <a href="#" class="nav-link">Sobre</a>
-                          </li>
-                          <li class="nav-item">
-                              <a href="#" class="nav-link">Contatos</a>
-                          </li>
-                        </ul>
-                      </div>
-            </nav>
+  
         <div class="container-fluid">
             <div class="row">
                 <div class="heading">
-                    <h1 id="main-header">A verdadeira balbúrdia.</h1>
+                    <h1 id="main-header" class="col-sm-1 col-md-8 col-lg 12">A verdadeira balbúrdia.</h1>
                 </div>
             </div>
             <div class="row">
@@ -49,21 +30,21 @@
             </div>
             <div class="row">
             <div class="explanation"></div>
-            <button id="discover-more" class="btn btn-dark">Saiba Mais!</button>
+            <button id="discover-more" class="btn btn-dark" href="#acre" >Saiba Mais!</button>
             </div>
         </div>
     </section>
 
     <!--Segunda section, consistindo da tabela com os estados do país-->
-    <section class="second-section">
+    <section id="second-section">
         <div class="container-fluid">
             <div class="row">
                 <h2 class="help col-lg-3">Como usar??</h2>
                         <ol class="list-group col-lg-9">
                                 <li class="list-group-item ">Primeiramente, você seleciona o estado do estabelecimento desejado.</li>
                                 <li class="list-group-item">Logo Após isso, você pode escolher o tipo de estabelecimento desejado.</li>
-                                <li class="list-group-item">Como tipos disponíveis, temos: Universidades, Instituições e Hospitais</li>
-                                <li class="list-group-item">Tendo o tipo sido selecionado, uma listagem dos lugares compativeís irá ser apresentada</li>
+                                <li class="list-group-item">Como tipos disponíveis, temos: Universidades, Instituições e Hospitais.</li>
+                                <li class="list-group-item">Tendo o tipo sido selecionado, uma listagem dos lugares compativeís irá ser apresentada.</li>
                                 <li class="list-group-item">Caso queira continuar a sua pesquisa em outro estado, basta clicar no botão de retornar!</li>
                                 <li class="list-group-item">Dúvidas e sugestões, entrar em contato: isaacsms@id.uff.br</li>
                               </ol>
@@ -74,41 +55,41 @@
             <div class="row">
                 <div class="estados">
                     <div class="row">
-                        <div class="col-lg-5 estado" id="acre"><img src="./assets/images/acre.png">AC</div>
-                        <div class="col-lg-5 estado" id="alagoas"><img src="./assets/images/alagoas.png">AL</div>
-                        <div class="col-lg-5 estado" id="amapa"><img src="./assets/images/amapa.png">AP</div>
-                        <div class="col-lg-5 estado" id="amazonas"><img src="./assets/images/amazonas.png">AM</div>
-                        <div class="col-lg-5 estado"  id="bahia"><img src="./assets/images/bahia.png">BA</div>
-                        <div class="col-lg-5 estado"  id="ceara"><img src="./assets/images/ceara.png">CE</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="acre">AC - Acre</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="alagoas">AL - Alagoas</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="amapa">AP - Amapá</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="amazonas">AM - Amazonas</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="bahia">BA - Bahia</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="ceara">CE - Ceará</div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-5 estado" id="df"><img src="./assets/images/df.png">DF</div>
-                        <div class="col-lg-5 estado" id="espiritosanto"><img src="./assets/images/espiritosanto.png">ES</div>
-                        <div class="col-lg-5 estado"  id="goias"><img src="./assets/images/goias.png">GO</div>
-                        <div class="col-lg-5 estado"  id="maranhao"><img src="./assets/images/maranhao.png">MA</div>
-                        <div class="col-lg-5 estado"  id="matogrosso"><img src="./assets/images/matogrosso.png">MT</div>
-                        <div class="col-lg-5 estado"  id="matogrossodosul"><img src="./assets/images/matogrossodosul.png">MS</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="df">DF - Distrito Federal </div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="espiritosanto">ES - Espirito Santo</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="goias">GO - Goiás</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="maranhao">MA - Maranhão</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="matogrosso">MT - Mato Grosso</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="matogrossodosul">MS - Mato Grosso do Sul</div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-5 estado"  id="minasgerais"><img src="./assets/images/minasgerais.png">MG</div>
-                        <div class="col-lg-5 estado"  id="para"><img src="./assets/images/para.png">PA</div>
-                        <div class="col-lg-5 estado"  id="paraiba"><img src="./assets/images/paraiba.png">PB</div>
-                        <div class="col-lg-5 estado"  id="parana"><img src="./assets/images/parana.png">PR</div>
-                        <div class="col-lg-5 estado"  id="pernambuco"><img src="./assets/images/pernambuco.png">PE</div>
-                        <div class="col-lg-5 estado"  id="piaui"><img src="./assets/images/piaui.png">PI</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="minasgerais">MG - Minas Gerais</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="para">PA - Pará</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="paraiba">PB - Paraíba</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="parana">PR - Paraná</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="pernambuco">PE - Pernambuco</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="piaui">PI - Piauí</div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-5 estado"  id="riodejaneiro"><img src="./assets/images/riodejaneiro.png">RJ</div>
-                        <div class="col-lg-5 estado"  id="riograndedonorte"><img src="./assets/images/riograndedonorte.png">RN</div>
-                        <div class="col-lg-5 estado" id="riograndedosul"><img src="./assets/images/riograndedosul.png">RS</div>
-                        <div class="col-lg-5 estado" id="rondonia"><img src="./assets/images/rondonia.png">RO</div>
-                        <div class="col-lg-5 estado" id="roraima"><img src="./assets/images/roraima.png">RR</div>
-                        <div class="col-lg-5 estado" id="santacatarina"><img src="./assets/images/santacatarina.png">SC</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="riodejaneiro">RJ - Rio de Janeiro</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades"  id="riograndedonorte">RN - Rio Grande do Norte</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="riograndedosul">RS - Rio Grande do Sul</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="rondonia">RO - Rondônia</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="roraima">RR - Roraima</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="santacatarina">SC - Santa Catarina</div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-5 estado" id="saopaulo"><img src="./assets/images/saopaulo.png">SP</div>
-                        <div class="col-lg-5 estado" id="sergipe"><img src="./assets/images/sergipe.png">SE</div>
-                        <div class="col-lg-5 estado" id="tocantins"><img src="./assets/images/tocantins.png">TO</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="saopaulo">SP - São Paulo</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="sergipe">SE - Sergipe</div>
+                        <div class="col-lg-5 col-md-8 col-sm-12 estado" href="#universidades" id="tocantins">TO - Tocantins</div>
                     </div>
                 </div>
             </div>
@@ -121,7 +102,8 @@
                     </div>
                 </div>
             <div class="row">
-                    <div class="data-place">
+                        <!-- Essa seção é preenchida dinâmicamente, por isso se encontra vazia no momento inicial-->
+                <div class="data-place">
                     </div>
             </div>                
         </div>

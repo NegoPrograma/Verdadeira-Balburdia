@@ -4,17 +4,18 @@
     color: #A35;
     background-color: azure;
     margin: 1px;
-    border: 3px solid black;
+    padding-top: 80px;
     transition: 1s;
     font-size: 29px;
     height: 200px;
+    background-size: cover;
 }
 
 .estado:hover{
     color: azure;
     background-color: black;
-    border: 3px solid azure;
-    transition: 1s;
+    border: 5px solid white;
+    transition: 0.5s;
 
 }
 

@@ -21,7 +21,16 @@ let estadoSelecionado;
 let menuDeBotoes = false;
 
 
+
+
 //-------------------------BOTÕES--------------------//
+
+// comportamento do botão saiba mais
+
+$("#discover-more").click(()=>{
+    document.getElementById('second-section').scrollIntoView();
+});
+
 
 
 let listaBotoes = $(".options button");
@@ -51,7 +60,7 @@ returnButton.click(()=>{
 
 //-------------TABELAS----------------//
 //setando background
-let actualBackImage = "";
+let actualBackImage;
 for (let index = 0; index < vetorEstados.length; index++){
     actualBackImage = "url('../assets/images/" + stringEstadosAbreviados[index] + ".jpg'";
     vetorEstados[index].style.backgroundImage = actualBackImage;
@@ -62,7 +71,6 @@ for (let index = 0; index < vetorEstados.length; index++){
 
 for (let index = 0; index < vetorEstados.length; index++){
     vetorEstados[index].addEventListener("click",function (){
-        console.log("click funcionando bro");
         estadoSelecionado =  vetorEstados[index].getAttribute("id");
         menuDeBotoes = true;
         showButtons(menuDeBotoes);
