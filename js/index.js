@@ -32,8 +32,9 @@ let estabelecimentoSelecionado;
 for (let index = 0; index < listaBotoes.length; index++) {
         listaBotoes[index].addEventListener("click",()=>{
             estabelecimentoSelecionado = listaBotoes[index].getAttribute("id");
-        });  
-};
+        });
+        selecionador(estadoSelecionado,estabelecimentoSelecionado);
+    };
 
 
 
@@ -72,13 +73,15 @@ function showButtons(menu){
         $(".estados").fadeOut();
         setTimeout(()=>{
             $(".options").fadeIn();
-        },1500);    
+            $(".second-section-header").text("Selecione o tipo de estabelecimento:");
+        },500);    
     }
     else{
         $(".options").fadeOut();
         setTimeout(()=>{
             $(".estados").fadeIn();
-        },1500);
+            $(".second-section-header").text("Selecione o estado desejado:");
+        },500);
     }
 };
 

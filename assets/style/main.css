@@ -20,6 +20,17 @@
 
 
 /* classes */
+
+.data-box{
+    width: 500px;
+    height: 600px;
+}
+
+.data-header{
+    font-size: 2.5em;
+}
+
+
 .heading{
     width: 100%;
     margin: 120px 0 70px;
@@ -30,17 +41,53 @@
     background-image: url("../images/sitebackground.png");
 }
 
+.help{
+    font-family: 'Baloo Bhai','cursive';
+    padding-top: 110px; 
+    width: 300px;
+    height: 300px; 
+    font-size: 2.5em;
+    color: azure;
+    border: 20px dotted #333;
+    display: block;
+    background-color: #503FF8; 
+}
+
+
+
 .second-section{
-    padding-top: 200px;
+    padding-top: 100px;
     background-color: #AA94B8;
 }
 
 .second-section-header{
+    margin-top: 150px;
     font-family: 'Baloo Bhai','cursive';
 }
 
+.returnButton{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.options{
+    width: 100%;
+    text-align: center;
+}
+
+.material-icons{
+    position: relative;
+    top: 7px;
+}
+
+.row{
+    text-align: center;
+}
 
 /* tags gerais */
+
+
 
 p {
     font-family: 'Roboto', sans-serif;
@@ -48,4 +95,10 @@ p {
 
 img{
     display: inline;
+}
+
+.options button{
+    margin: 50px 99px;
+    width: 150px;
+    font-size: 19px;
 }

@@ -6,7 +6,8 @@ function Estabelecimento(nome,orcamento,valorCorteBruto,percentualDeCorte){
     this.percentualDeCorte = percentualDeCorte;
 };
 
-/* prepara o coração, developer, pois abaixo você verá o desespero de alguém que ainda não sabe nada de back e precisa guardar dados
+/* prepara o coração, developer,
+ pois abaixo você verá o desespero de alguém que ainda não sabe nada de back e precisa guardar dados
 desde antes, já peço perdão pelos seus olhos */
 
 
@@ -264,81 +265,377 @@ let HPs = [HP_MS,HP_PI,HP_RJ];
 //é agora, estamos prestes a fazer a lendária função principal, tudo que você sofreu e odiou até então passa a ter significado! boa sorte.
 //pqp é muito trabalho braçal, nisso que dá fazer as coisas sem planejar, seu arrombado
 
+
+function showInfo(place){
+   let atributo=[]*4;
+   let stringAtributo;
+   if(!null){
+      if(place.constructor === Array){
+         for (let index = 0; index < place.length; index++) {
+            atributo[0] = place[index].nome;
+            atributo[1] = place[index].orcamento;
+            atributo[2] = place[index].valorCorteBruto;
+            atributo[3] = place[index].percentualDeCorte;
+            stringAtributo = '<div class="data-box"> <h2 class="data-header>' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">'+ atributo[1] +'</li> <li class="list-group-item">' + atributo[2]+ '<li class="list-group-item">' + atributo[3] + '</ul></div>';
+            $(".data-place").innerHtml += stringAtributo;
+         };
+      }
+      else{
+         atributo[0] = place.nome;
+         atributo[1] = place.orcamento;
+         atributo[2] = place.valorCorteBruto;
+         atributo[3] = place.percentualDeCorte;
+         stringAtributo = '<div class="data-box"> <h2 class="data-header>' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">'+ atributo[1] +'</li> <li class="list-group-item">' + atributo[2]+ '<li class="list-group-item">' + atributo[3] + '</ul></div>';
+         $(".data-place").innerHtml += stringAtributo;     
+      };
+   }
+   else{
+      $(".data-place").html("<h2> nenhum corte aqui meu parceiro</h2>");
+   }
+}
+
 function selecionador(estadoSelecionado,opcaoSelecionada){
     switch(opcaoSelecionada){
         case "universidades":
                 switch(estadoSelecionado){
                      case "acre":
+                           showInfo(UF_AC);
+                           console.log(UF_AC);
 
                         break;
                      case "alagoas":
+                           showInfo(UF_AL);
                      
                         break;
                      case "amapa":
+                           showInfo(UF_AP);
 
                         break;
-                     case "acre":
+                     case "amazonas":
+                           showInfo(UF_AM);
+                        break;
+                     case "bahia":
+                           showInfo(UF_BA);
+
+                        break;
+                     case "ceara":
+                           showInfo(UF_CE);
                      
                         break;
-                     case "acre":
+                     case "df":
+                           showInfo(UF_DF);
 
                         break;
-                     case "acre":
+                     case "espiritosanto":
+                           showInfo(UF_ES);
                      
                         break;
-                     case "acre":
+                     case "goias":
+                           showInfo(UF_GO);
 
                         break;
-                     case "acre":
+                     case "maranhao":
+                           showInfo(UF_MA);
                      
                         break;
-                     case "acre":
+                     case "matogrosso":
+                           showInfo(UF_MT);
 
                         break;
-                     case "acre":
+                     case "matogrossodosul":
+                           showInfo(UF_MS);
                      
                         break;
-                     case "acre":
+                     case "minasgerais":
+                           showInfo(UF_MG);
 
                         break;
-                     case "acre":
+                     case "para":
+                           showInfo(UF_PA);
                      
                         break;
-                     case "acre":
+                     case "paraiba":
+                           showInfo(UF_PB);
 
                         break;
-                     case "acre":
+                     case "parana":
+                           showInfo(UF_PR);
                      
                         break;
-                     case "acre":
+                     case "pernambuco":
+                           showInfo(UF_PE);
 
                         break;
-                     case "acre":
+                     case "piaui":
+                           showInfo(null);
                      
                         break;
-                     case "acre":
+                     case "riodejaneiro":
+                           showInfo(UF_RJ);
 
                         break;
-                     case "acre":
+                     case "riograndedonorte":
+                           showInfo(UF_RN);
                      
                         break;
-                     case "acre":
-
-                        break;
-                     case "acre":
+                     case "riograndedosul":
+                           showInfo(UF_RS);
                      
                         break;
-
+                     case "rondonia":
+                           showInfo(UF_RO);
+                     
+                        break;
+                     case "roraima":
+                           showInfo(UF_RR);
+                     
+                        break;
+                     case "santacatarina":
+                           showInfo(UF_SC);
+                     
+                        break;
+                     case "saopaulo":
+                           showInfo(UF_SP);
+                     
+                        break;
+                     case "sergipe":
+                           showInfo(UF_SE);
+                     
+                        break;
+                     case "tocantins":
+                           showInfo(UF_TO);
+                     
+                        break;
                 }
-
         break;
-
         case "instituicoes":
+            switch(estadoSelecionado){
+               case "acre":
+                     showInfo(IF_AC);
+
+                  break;
+               case "alagoas":
+                     showInfo(IF_AL);
+               
+                  break;
+               case "amapa":
+                     showInfo(IF_AP);
+
+                  break;
+               case "amazonas":
+                     showInfo(null);
+               
+                  break;
+               case "bahia":
+                     showInfo(IF_BA);
+
+                  break;
+               case "ceara":
+                     showInfo(IF_CE);
+               
+                  break;
+               case "df":
+                     showInfo(IF_DF);
+
+                  break;
+               case "espiritosanto":
+                     showInfo(IF_ES);
+               
+                  break;
+               case "goias":
+                     showInfo(IF_GO);
+
+                  break;
+               case "maranhao":
+                     showInfo(IF_MA);
+               
+                  break;
+               case "matogrosso":
+                     showInfo(IF_MT);
+
+                  break;
+               case "matogrossodosul":
+                     showInfo(IF_MS);
+               
+                  break;
+               case "minasgerais":
+                     showInfo(IF_MG);
+
+                  break;
+               case "para":
+                     showInfo(IF_PA);
+               
+                  break;
+               case "paraiba":
+                     showInfo(IF_PB);
+
+                  break;
+               case "parana":
+                     showInfo(IF_PR);
+               
+                  break;
+               case "pernambuco":
+                     showInfo(IF_PE);
+
+                  break;
+               case "piaui":
+                     showInfo(IF_PI);
+               
+                  break;
+               case "riodejaneiro":
+                     showInfo(IF_RJ);
+
+                  break;
+               case "riograndedonorte":
+                     showInfo(IF_RN);
+               
+                  break;
+               case "riograndedosul":
+                     showInfo(IF_RS);
+               
+                  break;
+               case "rondonia":
+                     showInfo(IF_RO);
+               
+                  break;
+               case "roraima":
+                     showInfo(IF_RR);
+               
+                  break;
+               case "santacatarina":
+                     showInfo(IF_SC);
+               
+                  break;
+               case "saopaulo":
+                     showInfo(IF_SP);
+               
+                  break;
+               case "sergipe":
+                     showInfo(IF_SE);
+               
+                  break;
+               case "tocantins":
+                     showInfo(IF_TO);
+               
+                  break;
+
+         }
+
 
         break;
 
         case "hospitais":
+            switch(estadoSelecionado){
+               case "acre":
+                     showInfo(null);
 
+                  break;
+               case "alagoas":
+                     showInfo(null);
+               
+                  break;
+               case "amapa":
+                     showInfo(null);
+
+                  break;
+               case "amazonas":
+                     showInfo(null);
+               
+                  break;
+               case "bahia":
+                     showInfo(null);
+
+                  break;
+               case "ceara":
+                     showInfo(null);
+               
+                  break;
+               case "df":
+                     showInfo(null);
+
+                  break;
+               case "espiritosanto":
+                     showInfo(null);
+               
+                  break;
+               case "goias":
+                     showInfo(null);
+
+                  break;
+               case "maranhao":
+                     showInfo(null);
+               
+                  break;
+               case "matogrosso":
+                     showInfo(null);
+
+                  break;
+               case "matogrossodosul":
+                     showInfo(HP_MS);
+               
+                  break;
+               case "minasgerais":
+                     showInfo(null);
+
+                  break;
+               case "para":
+                     showInfo(null);
+               
+                  break;
+               case "paraiba":
+                     showInfo(null);
+
+                  break;
+               case "parana":
+                     showInfo(null);
+               
+                  break;
+               case "pernambuco":
+                     showInfo(null);
+
+                  break;
+               case "piaui":
+                     showInfo(HP_PI);
+               
+                  break;
+               case "riodejaneiro":
+                     showInfo(HP_RJ);
+
+                  break;
+               case "riograndedonorte":
+                     showInfo(null);
+               
+                  break;
+               case "riograndedosul":
+                     showInfo(null);
+               
+                  break;
+               case "rondonia":
+                     showInfo(null);
+               
+                  break;
+               case "roraima":
+                     showInfo(null);
+               
+                  break;
+               case "santacatarina":
+                     showInfo(null);
+               
+                  break;
+               case "saopaulo":
+                     showInfo(null);
+               
+                  break;
+               case "sergipe":
+                     showInfo(null);
+               
+                  break;
+               case "tocantins":
+                     showInfo(null);
+               
+                  break;
+
+         }
         break;
     }
 }

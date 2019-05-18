@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href=".//assets/style/main.css">
         <link rel="stylesheet" href=".//assets/style/estados.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
 
@@ -47,14 +48,26 @@
                 Mas de quanto exatamente estamos falando? Clique abaixo para descobrir!</p>
             </div>
             <div class="row">
-                <button id="discover-more" class="btn btn-dark">Saiba Mais!</button>
+            <div class="explanation"></div>
+            <button id="discover-more" class="btn btn-dark">Saiba Mais!</button>
             </div>
         </div>
     </section>
 
     <!--Segunda section, consistindo da tabela com os estados do país-->
     <section class="second-section">
-        <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="help col-lg-3">Como usar??</h2>
+                        <ol class="list-group col-lg-9">
+                                <li class="list-group-item ">Primeiramente, você seleciona o estado do estabelecimento desejado.</li>
+                                <li class="list-group-item">Logo Após isso, você pode escolher o tipo de estabelecimento desejado.</li>
+                                <li class="list-group-item">Como tipos disponíveis, temos: Universidades, Instituições e Hospitais</li>
+                                <li class="list-group-item">Tendo o tipo sido selecionado, uma listagem dos lugares compativeís irá ser apresentada</li>
+                                <li class="list-group-item">Caso queira continuar a sua pesquisa em outro estado, basta clicar no botão de voltar!</li>
+                                <li class="list-group-item">Dúvidas e sugestões, entrar em contato: isaacsms@id.uff.br</li>
+                              </ol>
+            </div>
             <div class="row">
                 <h2 class="mx-auto second-section-header">Selecione abaixo o estado desejado</h2>
             </div>
@@ -101,11 +114,17 @@
             </div>
             <div class="row">
                     <div class="options">
+                            <div class="returnButton"><button class="btn btn-outline-light"><i class="material-icons">keyboard_return</i>Retornar</button></div>
                             <button id="universidades" class="btn btn-outline-dark">Universidades</button> 
                             <button id="instituicoes" class="btn btn-outline-dark">Instituições</button> 
                             <button id="hospitais" class="btn btn-outline-dark">Hospitais</button> 
                     </div>
                 </div>
+            <div class="row">
+                    <div class="data-place">
+                        a
+                    </div>
+            </div>                
         </div>
     </section>
 

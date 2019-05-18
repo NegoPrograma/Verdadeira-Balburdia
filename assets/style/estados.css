@@ -6,13 +6,12 @@
     margin: 1px;
     border: 3px solid black;
     transition: 1s;
-    font-size: 16px;
+    font-size: 29px;
 }
 
 .estado:hover{
     color: azure;
     background-color: black;
-    margin: 10px;
     border: 3px solid azure;
     transition: 1s;
 
@@ -20,8 +19,9 @@
 
 .estado img{
     margin-right: 10px;
-    margin-left: -15px;
+    margin-left: -55px;
 }
+
 
 .estados{
     font-family: 'Baloo Bhai','cursive';
