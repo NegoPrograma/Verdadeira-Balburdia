@@ -32,11 +32,16 @@ let estabelecimentoSelecionado;
 for (let index = 0; index < listaBotoes.length; index++) {
         listaBotoes[index].addEventListener("click",()=>{
             estabelecimentoSelecionado = listaBotoes[index].getAttribute("id");
+            selecionador(estadoSelecionado,estabelecimentoSelecionado);
         });
-        selecionador(estadoSelecionado,estabelecimentoSelecionado);
+       
     };
 
-
+let returnButton = $(".returnButton button");
+returnButton.click(()=>{
+    menuDeBotoes = false;
+    showButtons(menuDeBotoes);
+});
 
 
 

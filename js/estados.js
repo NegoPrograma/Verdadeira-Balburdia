@@ -267,7 +267,7 @@ let HPs = [HP_MS,HP_PI,HP_RJ];
 
 
 function showInfo(place){
-   let atributo=[]*4;
+   let atributo=[0,0,0,0];
    let stringAtributo;
    if(!null){
       if(place.constructor === Array){
@@ -276,6 +276,7 @@ function showInfo(place){
             atributo[1] = place[index].orcamento;
             atributo[2] = place[index].valorCorteBruto;
             atributo[3] = place[index].percentualDeCorte;
+            console.log(atributo);
             stringAtributo = '<div class="data-box"> <h2 class="data-header>' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">'+ atributo[1] +'</li> <li class="list-group-item">' + atributo[2]+ '<li class="list-group-item">' + atributo[3] + '</ul></div>';
             $(".data-place").innerHtml += stringAtributo;
          };
@@ -285,6 +286,7 @@ function showInfo(place){
          atributo[1] = place.orcamento;
          atributo[2] = place.valorCorteBruto;
          atributo[3] = place.percentualDeCorte;
+         console.log(atributo);
          stringAtributo = '<div class="data-box"> <h2 class="data-header>' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">'+ atributo[1] +'</li> <li class="list-group-item">' + atributo[2]+ '<li class="list-group-item">' + atributo[3] + '</ul></div>';
          $(".data-place").innerHtml += stringAtributo;     
       };
@@ -295,6 +297,7 @@ function showInfo(place){
 }
 
 function selecionador(estadoSelecionado,opcaoSelecionada){
+   console.log(opcaoSelecionada,estadoSelecionado);
     switch(opcaoSelecionada){
         case "universidades":
                 switch(estadoSelecionado){
