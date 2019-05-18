@@ -23,7 +23,11 @@
 
 .data-box{
     width: 500px;
-    height: 600px;
+    height: 300px;
+    margin: 0px 15px;
+    text-align: center;
+    background-color: #EEE;
+    display: inline-block; 
 }
 
 .data-header{
@@ -58,6 +62,7 @@
 .second-section{
     padding-top: 100px;
     background-color: #AA94B8;
+    background-image: url("../images/sitebackground2.jpg");
 }
 
 .second-section-header{

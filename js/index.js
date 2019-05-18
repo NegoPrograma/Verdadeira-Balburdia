@@ -9,12 +9,13 @@ let stringEstados = ["Acre","Alagoas","Amapá","Amazonas","Bahia",'Ceara','Distr
 "Pernambuco","Piauí","Rio de Janeiro","Rio Grande do Norte","Rio Grande do Sul","Rondônia",
 "Roraima","Santa Catarina","São Paulo","Sergipe","Tocantins"];
 
+let stringEstadosAbreviados = ["AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO",];
+
 //seleciona os estados no site
 let vetorEstados = $(".estado");
 
 // estadoSelecionado configura o que vai aparecer na página de acordo com o estado. mais informações na documentação do github
 let estadoSelecionado;
-let estadoMouseoverString;
 
 //verificando o estado do menu
 let menuDeBotoes = false;
@@ -41,6 +42,7 @@ let returnButton = $(".returnButton button");
 returnButton.click(()=>{
     menuDeBotoes = false;
     showButtons(menuDeBotoes);
+    $(".data-place").html("");
 });
 
 
@@ -48,6 +50,13 @@ returnButton.click(()=>{
 
 
 //-------------TABELAS----------------//
+//setando background
+let actualBackImage = "";
+for (let index = 0; index < vetorEstados.length; index++){
+    actualBackImage = "url('../assets/images/" + stringEstadosAbreviados[index] + ".jpg'";
+    vetorEstados[index].style.backgroundImage = actualBackImage;
+};
+
 
 //eventos das tabelas
 
@@ -57,11 +66,6 @@ for (let index = 0; index < vetorEstados.length; index++){
         estadoSelecionado =  vetorEstados[index].getAttribute("id");
         menuDeBotoes = true;
         showButtons(menuDeBotoes);
-    });
-    vetorEstados[index].addEventListener("mouseover",function(event){
-        estadoMouseoverString = ' <img src="./assets/images/' + vetorEstados[index].getAttribute("id") +'.png"> ';
-        vetorEstados[index].innerHTML  = estadoMouseoverString + stringEstados[index];
-
     });
 };
 

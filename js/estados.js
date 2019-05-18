@@ -268,7 +268,7 @@ let HPs = [HP_MS,HP_PI,HP_RJ];
 
 function showInfo(place){
    let atributo=[0,0,0,0];
-   let stringAtributo;
+   let stringAtributo="";
    if(!null){
       if(place.constructor === Array){
          for (let index = 0; index < place.length; index++) {
@@ -276,9 +276,9 @@ function showInfo(place){
             atributo[1] = place[index].orcamento;
             atributo[2] = place[index].valorCorteBruto;
             atributo[3] = place[index].percentualDeCorte;
-            console.log(atributo);
-            stringAtributo = '<div class="data-box"> <h2 class="data-header>' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">'+ atributo[1] +'</li> <li class="list-group-item">' + atributo[2]+ '<li class="list-group-item">' + atributo[3] + '</ul></div>';
-            $(".data-place").innerHtml += stringAtributo;
+            stringAtributo += '<div class="data-box col-lg-'+(place.length).toString() +' col-md-'+(place.length/2).toString() + ' col-sm-1"> <h2 class="data-header">' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">Orçamento original:'+ atributo[1] +'</li> <li class="list-group-item"> Valor bruto do corte:' + atributo[2]+ '<li class="list-group-item"> Percentual do corte:' + atributo[3] + '</ul></div>';
+            $(".data-place").html(stringAtributo);
+               console.log(stringAtributo);
          };
       }
       else{
@@ -286,9 +286,9 @@ function showInfo(place){
          atributo[1] = place.orcamento;
          atributo[2] = place.valorCorteBruto;
          atributo[3] = place.percentualDeCorte;
-         console.log(atributo);
-         stringAtributo = '<div class="data-box"> <h2 class="data-header>' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">'+ atributo[1] +'</li> <li class="list-group-item">' + atributo[2]+ '<li class="list-group-item">' + atributo[3] + '</ul></div>';
-         $(".data-place").innerHtml += stringAtributo;     
+         stringAtributo += '<div class="data-box col-lg-12 col-md-6 col-sm-1"> <h2 class="data-header">' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">Orçamento original:'+ atributo[1] +'</li> <li class="list-group-item"> Valor bruto do corte:' + atributo[2]+ '<li class="list-group-item"> Percentual do corte:' + atributo[3] + '</ul></div>';
+         $(".data-place").html(stringAtributo);     
+         console.log(stringAtributo);
       };
    }
    else{
