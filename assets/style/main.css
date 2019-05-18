@@ -53,6 +53,8 @@
 
 .first-section{
     background-image: url("../images/sitebackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .help{
