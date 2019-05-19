@@ -169,7 +169,7 @@ let HP_PI = new Estabelecimento("Hospital Universitário da Fundação Universid
 let UF_RJ = [new Estabelecimento("Fundação Universidade do Rio de Janeiro","69.352.230", "117.271", "0%")
 ,new Estabelecimento("Universidade Federal Fluminense", "242.030.710", "44.345.866", "18%")
 ,new Estabelecimento("Universidade Federal do Rio de Janeiro", "443.025.271", "16.018.256", "4%")
-,new Estabelecimento("Universidade Federal Rural", "do Rio de Janeiro ","71.766.994","375.426", "1%")
+,new Estabelecimento("Universidade Federal Rural do Rio de Janeiro ","71.766.994","375.426", "1%")
 ];
 
 let IF_RJ = [new Estabelecimento("Instituto Colegial Pedro II ","72.963.101", "728.716", "1%")
@@ -286,7 +286,7 @@ function showInfo(place){
          atributo[1] = place.orcamento;
          atributo[2] = place.valorCorteBruto;
          atributo[3] = place.percentualDeCorte;
-         stringAtributo += '<div class="data-box col-lg-6 col-md-6 col-sm-12"> <h2 class="data-header">' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">Orçamento original: R$ '+ atributo[1] +'</li> <li class="list-group-item"> Valor bruto do corte: R$ ' + atributo[2]+ '<li class="list-group-item"> Percentual do corte: R$ ' + atributo[3] + '</ul></div>';
+         stringAtributo += '<div class="data-box col-lg-6 col-md-6 col-sm-12"> <h2 class="data-header">' + atributo[0] + '</h2> <ul class="list-group"> <li class="list-group-item">Orçamento original: R$ '+ atributo[1] +'</li> <li class="list-group-item"> Valor bruto do corte: R$ ' + atributo[2]+ '<li class="list-group-item"> Percentual do corte: ' + atributo[3] + '</ul></div>';
          $(".data-place").html(stringAtributo);     
          console.log(stringAtributo);
       };
